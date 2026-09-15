@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 4: full feature extraction
 # extract features for all images and save them to a file
 # this step only needs to run once
