@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 3: toy version (small test)
 # goal: check that the whole pipeline works, not to get high accuracy
 import os
