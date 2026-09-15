@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# professor feedback: deeper error analysis
 # check which images the model gets wrong most
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -50,7 +48,6 @@ print(f"  False Negatives (fake called real): {false_negatives.sum()}")
 # ============================================================
 # step 2: analyze the model confidence on errors
 # ============================================================
-# was the model confident or unsure on its errors?
 # distance of probability from 0.5 = confidence
 confidence = np.abs(y_prob - 0.5)
 
