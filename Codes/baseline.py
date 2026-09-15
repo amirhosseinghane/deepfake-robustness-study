@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 5: baseline
 # load the saved features, split into train/test,
 # train the classifier and report the real performance
