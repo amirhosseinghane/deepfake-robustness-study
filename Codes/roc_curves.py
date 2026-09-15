@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# professor feedback: ROC curve for each degradation
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
