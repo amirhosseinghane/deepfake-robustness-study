@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # plot robustness curves from the three CSV files
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
