@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 6 (part 1): robustness test - JPEG compression only
 # the classifier is trained on clean data,
 # but tested on the degraded test data
