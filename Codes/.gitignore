@@ -1,0 +1,20 @@
+# Data files (large, not tracked)
+*.npz
+*.rar
+*.zip
+
+# Dataset images
+Data/
+*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
