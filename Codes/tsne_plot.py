@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# professor feedback: t-SNE plot of the feature space
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
