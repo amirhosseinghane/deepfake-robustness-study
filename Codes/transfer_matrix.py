@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Axis 2 - part 2: build the transfer matrix
 # compute an AUC for each pair (train on X, test on Y)
 import os
@@ -67,7 +66,6 @@ print("\n--- Quick analysis ---")
 print(f"Trained on CLEAN, avg on degraded tests: "
       f"{matrix.loc['clean', ['noise','jpeg','resolution']].mean():.4f}")
 
-# does training with degradation improve overall robustness?
 # average of each row over the degraded tests
 for cond in conditions:
     avg_on_degraded = matrix.loc[cond, ['noise','jpeg','resolution']].mean()
