@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# professor feedback: full four-metric table + multiple seeds
 # uses the saved features, so it is fast
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -61,9 +59,7 @@ for metric in ["auc", "f1", "precision", "recall"]:
 # ============================================================
 # step 2: each degradation (from degraded_features) with several seeds
 # ============================================================
-# note: in degraded_features the split is already fixed,
-# so for multiple seeds we only retrain the classifier
-# with different random states to check stability.
+
 deg = np.load(DEGRADED)
 y_test = deg["y_test"]
 y_train = deg["y_train"]
