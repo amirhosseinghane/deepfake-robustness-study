@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Axis 2 - part 1: extract degraded features (train and test)
 # one representative level per degradation. runs only once.
 import os
