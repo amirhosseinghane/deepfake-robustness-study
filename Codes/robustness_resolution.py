@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 6 (part 3): robustness test - resolution reduction
 # same structure as the previous two files, only the degradation function changes
 import os
