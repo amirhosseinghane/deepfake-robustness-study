@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Axis 3: augmented model (mix of all degradations)
 # uses the ready features in degraded_features.npz
 import os
