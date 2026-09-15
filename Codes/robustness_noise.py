@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Step 6 (part 2): robustness test - Gaussian noise
 # same structure as the JPEG file, only the degradation function changes
 import os
