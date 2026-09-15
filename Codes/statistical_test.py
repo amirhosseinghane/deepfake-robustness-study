@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# professor feedback: confidence interval and significance test
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -49,7 +47,6 @@ print(f"95% CI:          [{ci[0]:.4f}, {ci[1]:.4f}]")
 # ============================================================
 # step 2: statistical comparison of two models (clean vs augmented)
 # ============================================================
-# is the difference between augmented and clean significant?
 deg = np.load(DEGRADED)
 y_train, y_test = deg["y_train"], deg["y_test"]
 conditions = ["noise", "jpeg", "resolution"]
